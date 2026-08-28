@@ -38,36 +38,4 @@ python -m http.server 8123
 }
 ```
 
-- 想改成 **AI 导航 / 影视导航 / 团队内部导航**：只改这个文件的分类和站点即可
-- 删掉不想要的分类、加自己的分类都直接编辑
 
-## 部署（上线三选一，全部免费）
-
-构建产物就是当前文件夹的静态文件，任选一种：
-
-**方式 A · Cloudflare Pages（国内访问较好，推荐）**
-1. 注册/登录 [dash.cloudflare.com](https://dash.cloudflare.com)
-2. Workers & Pages → Create → Pages → **Upload assets**（直接拖文件夹，不需要 Git）
-3. 把 `devnav` 文件夹拖进去 → 项目名填 `devnav` → Deploy
-4. 得到 `https://devnav-xxx.pages.dev`，可在设置里绑自己的域名
-
-**方式 B · Vercel（最省事）**
-1. 注册/登录 [vercel.com](https://vercel.com)
-2. Add New → Project → 拖入文件夹或先推到 GitHub 再导入
-3. Deploy 后得到 `https://xxx.vercel.app`
-
-**方式 C · GitHub Pages（适合顺便开源攒 star）**
-1. 在 GitHub 新建仓库，把本文件夹推上去
-2. 仓库 Settings → Pages → Source 选 `main` / `(root)` → Save
-3. 得到 `https://<用户名>.github.io/<仓库名>`
-
-上线后到各搜索引擎站长平台提交网址（百度站长、Bing Webmaster），一般 1–7 天开始有收录。
-
-## 运营建议（如果想让更多人用）
-
-导航站的价值在内容和持续维护，不在功能本身：
-
-1. **定位要窄**：「XX 领域开发者导航」比大而全更容易被搜索和转发
-2. **每周更新**：新工具、新模型发布后第一时间收录，保持站点"活着"
-3. **可投稿**：后续可以加一个"提交收录"表单，让用户帮你养内容
-4. **SEO**：每个分类一个锚点、站点描述写清楚，长尾词自然来
