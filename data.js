@@ -56,7 +56,8 @@ window.NAV_DATA = {
         { name: "vLLM", url: "https://docs.vllm.ai", desc: "高性能开源推理引擎", tags: ["推理加速", "开源"] },
         { name: "OpenRouter", url: "https://openrouter.ai", desc: "开源模型聚合 API 一站调用", tags: ["API 聚合", "多模型"] },
         { name: "Kaggle", url: "https://www.kaggle.com", desc: "数据竞赛与开源数据集", tags: ["数据集", "免费 GPU"] },
-        { name: "LangChain", url: "https://www.langchain.com", desc: "开源 LLM 应用开发框架", tags: ["开源框架", "Agent"] }
+        { name: "LangChain", url: "https://www.langchain.com", desc: "开源 LLM 应用开发框架", tags: ["开源框架", "Agent"] },
+        { name: "agent-qa", url: "https://vostride.com", desc: "网页、Android 与 iOS 自然语言测试；memidex 持久记忆、经验证的自我改进、MCP 与可复查运行证据。模型等服务费用依配置与用量产生。", tags: ["Agent"] }
       ]
     },
     // ── 标签维度：内容类型 / 收费情况 / 可达性 ──
